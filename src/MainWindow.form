@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainWindow">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="11" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="7" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <font size="20"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="437ce" class="javax.swing.JLabel" binding="Title">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Sans" size="28" style="3"/>
+          <text value="Weather App"/>
+        </properties>
+      </component>
+      <component id="d0c19" class="javax.swing.JLabel" binding="A_Localisation">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="Localisation:"/>
+        </properties>
+      </component>
+      <component id="9768a" class="javax.swing.JLabel" binding="LocalisationB">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="8"/>
+          <text value="(Select from list or"/>
+        </properties>
+      </component>
+      <component id="2e916" class="javax.swing.JLabel" binding="LocalisationC">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="8"/>
+          <iconTextGap value="4"/>
+          <inheritsPopupMenu value="true"/>
+          <text value="enter manually)"/>
+        </properties>
+      </component>
+      <hspacer id="69289">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="ae0e4" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <editable value="true"/>
+        </properties>
+      </component>
+      <component id="9c473" class="javax.swing.JButton" binding="checkWeatherButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Check weather"/>
+        </properties>
+      </component>
+      <component id="7487b" class="javax.swing.JLabel" binding="LabelD">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="Currently showing weather data for:"/>
+        </properties>
+      </component>
+      <component id="1e336" class="javax.swing.JLabel" binding="weather">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="Deafault"/>
+        </properties>
+      </component>
+      <component id="10926" class="javax.swing.JLabel" binding="Ask">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="Save Data?"/>
+        </properties>
+      </component>
+      <component id="d1cb0" class="javax.swing.JCheckBox" binding="checkBox1" default-binding="true">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="d099b">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="acf6b" class="javax.swing.JLabel" binding="Place">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="Default"/>
+        </properties>
+      </component>
+      <hspacer id="c59e2">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="1e9d1">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="e06e8">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="799e8">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="cc8b5" class="javax.swing.JButton" binding="showLastDataButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Show last data"/>
+        </properties>
+      </component>
+      <component id="65ce0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="Showing last saved data:"/>
+        </properties>
+      </component>
+      <component id="365ac" class="javax.swing.JLabel" binding="oldDataField">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="Default"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
